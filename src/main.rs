@@ -27,7 +27,11 @@ impl Solution {
 }
 
 fn main() {
-    println!("Hello, world!");
+    let arr = vec!(4, 5, 9);
+    let target = 10;
+
+    let res = Solution::find_best_value(arr.clone(), target);
+    println!("{:?} {}", arr, res);
 }
 
 #[cfg(test)]
