@@ -22,7 +22,7 @@ impl Solution {
             res += 1;
         }
 
-        return res - 2;
+        res - 2
     }
 }
 
